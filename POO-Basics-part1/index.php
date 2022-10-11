@@ -2,17 +2,17 @@
  require_once "Car.php";
  require_once 'Bicycle.php';
 
-$vehicle = new Car("blue",5,"gasoil");
+$audi = new Car("blue",5,"gasoil");
 
-//  var_dump($vehicle)."<br><br>";
+//  var_dump($audi)."<br><br>";
 
-// Moving $vehicle
-echo $vehicle->start().'<br>';
-echo $vehicle->forward();
-echo '<br> Vitesse de le voiture : ' . $vehicle-> getCurrentSpeed(). ' km/h' . '<br>';
-echo $vehicle->brake();
-echo '<br> Vitesse de la voiture: ' . $vehicle->getCurrentSpeed(). ' km/h' . '<br>';
-echo $vehicle->brake().'<br><br>';
+// Moving $audi
+echo $audi->start().'<br>';
+echo $audi->forward();
+echo '<br> Vitesse de le voiture : ' . $audi-> getCurrentSpeed(). ' km/h' . '<br>';
+echo $audi->brake();
+echo '<br> Vitesse de la voiture: ' . $audi->getCurrentSpeed(). ' km/h' . '<br>';
+echo $audi->brake().'<br><br>';
 
 
 $bike = new Bicycle("pink");
